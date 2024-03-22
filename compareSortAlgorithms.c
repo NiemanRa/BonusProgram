@@ -34,8 +34,8 @@ void heapify(int arr[], int n, int i)
     int temp, maximum, leftIndex, rightIndex; 
   
     // "i" is the Largest Value 
-    maximum = i; 
-  
+    maximum = i;
+	
 	leftIndex = 2 * i + 1; 
     rightIndex = 2 * i + 2; 
   
