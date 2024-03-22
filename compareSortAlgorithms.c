@@ -37,8 +37,8 @@ void heapify(int arr[], int n, int i)
     maximum = i;
 	
     rightIndex = 2 * i + 2; 
-	leftIndex = 2 * i + 1; 
-  
+	leftIndex = 2 * i + 1;
+
     // If Left Greater than Current Index Value
     if (leftIndex < n && arr[leftIndex] > arr[maximum]) 
         maximum = leftIndex; 
