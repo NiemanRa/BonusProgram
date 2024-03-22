@@ -172,7 +172,7 @@ void insertionSort(int* pData, int n)
 		item = pData[i];
 
 		// Move elements greater than key one position ahead
-		for(j = (i - 1); j >= 0; j--)
+		for (j = (i - 1); j >= 0; j--)
 		{
 			if(pData[j] > item)
 				pData[j + 1] = pData[j];
