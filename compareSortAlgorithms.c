@@ -1,3 +1,5 @@
+// Rachel Nieman - Bonus Programming Assignment
+
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
